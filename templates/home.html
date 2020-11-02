@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}WL&T Project{% endblock %}
+{% block content %}
+    <div class="card-body" id="container-home">
+        <div id="app-resume">
+            <h3 class="card-title">This is the home page of TS&A project.</h3>
+            </br>
+            <p>
+                The TS&A project by it's acronym Translator, Speech and Analyzer is a web app was
+                created to have a tool capable to uses Azure for text translation, text-to-speech
+                conversion, and sentiment analysis of input text and translations. Also built this
+                app was a good way to learn more about azure services and other technologies.
+                Learn more about <a href="https://docs.microsoft.com/azure/cognitive-services/">
+                Azure Cognitive Services. </a> Some technologies used in this quick project:
+                </br>
+                <ol>
+                    <li>Flask for back-end development.</li>
+                    <li>Azure Cognitive Servces</li>
+                    <li>JavaScript and Ajax.</li>
+                    <li>HTML5/CSS3/Bootstrap4.</li>
+                    <li>JQuery to execute the requests.</li>
+                </ol>
+            </p>
+            </br>
+        </div>
+        <div class="btn-options">
+            <a href="https://www.linkedin.com/in/jafet-mora-ugalde-294942180/" target="_blank" class="btn btn-primary" id="btn-about">About me</a>
+            <a href="/ts&a/" class="btn btn-primary" id="btn-tsa">TS&A</a>
+            <a href="mailto:jafet.moraugalde15@gmail.com" class="btn btn-primary" id="btn-contact">Contact me</a>
+        </div>
+    </div>
+{% endblock %}

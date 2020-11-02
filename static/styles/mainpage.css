@@ -1,0 +1,116 @@
+body, html {
+    background-color: rgb(36, 36, 36);
+}
+
+.card-title {
+    margin: 5% auto;
+}
+
+div#app-resume {
+    margin: auto;
+    width: 60%;
+}
+
+.btn-options {
+    text-align: center;
+}
+
+div#container-home {
+    background-color: white;
+    text-align: justify;
+    border: 1px solid;
+    border-radius: 25px;
+    margin: auto 25%;
+    margin-top: 12%;
+}
+
+h3.card-title {
+    text-align: center;
+}
+
+#btn-about {
+    margin-right: 5%;
+    padding: 1.5% 3%;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: initial;
+    background-color: grey;
+    border-color: grey;
+}
+
+#btn-tsa {
+    margin: 5%;
+    padding: 2.5% 4.5%;
+    border-radius: 20px;
+    padding: 2% 4%;
+    border-radius: 20px;
+    font-size: x-large;
+    font-weight: initial;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+a#btn-contact {
+    margin-left: 5%;
+    padding: 1.5% 3%;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: initial;
+    background-color: grey;
+    border-color: grey;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+div#title {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.container {
+    margin: auto 25%;
+    margin-top: 5.5%;
+    background: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 3% 3%;
+}
+
+#input-form {
+    margin-right: 2%;
+}
+
+#output-form {
+    margin-left: 2%;
+}
+
+div#detected-language {
+    margin-top: 4%;
+}
+
+div#sentiment {
+    margin-top: 4%;
+}
+
+div#audio-playback {
+    margin-top: 2%;
+}
+
+.form-group {
+    margin-bottom: 3rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: right;
+}
